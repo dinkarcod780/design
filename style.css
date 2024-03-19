@@ -1,0 +1,1128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.page1{
+    height: 70vh;
+    width: 60vw;
+    background:linear-gradient(violet,purple,blue,purple,purple);
+    position: absolute;
+    left: 18%;
+    bottom: 75%;
+     filter: blur(79px); 
+    /* border-radius: 59%; */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    opacity: 0.8;
+    
+    /* z-index: -1; */
+    
+}
+
+
+
+nav{
+    height: 20vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: end;
+    
+
+}
+nav >ul{
+    display: flex;
+    /* text-align: center; */
+    justify-items: center;
+    gap: 5vmax;
+    
+}
+ul >li{
+    display: flex;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    right: 6vmax;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+}
+ul >.circle{
+    height: 11.5vh;
+    width: 4.5vw;
+    /* background-image: linear-gradient(lightskyblue,  black ,navy, lightskyblue, seagreen); */
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    right: 52vmax;
+    top: 2.2vmax;
+    /* border: 5px solid rgb(  255, 174, 0); */
+    border: 5px solid;
+    background: linear-gradient(to right bottom, violet,purple,#8c00ff);;
+
+}
+.circle >img{
+    height: 8vh;
+    width: 3vw;
+    display: flex;
+    position: relative;
+    /* align-items: center;
+    text-align: center; */
+    /* left: 18%; */
+    top: 9%;
+    left: 4.6px;
+    background-color: skyblue; 
+    border-radius: 50%;
+    border: 3px solid black; 
+}
+ .head{
+    height: 10vh;
+    width: 30vw;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    right: 11vmax;
+    top: 3vmax;
+} 
+.head >h1{
+     font-size: 21px;
+     font-family: sans-serif;
+     font-weight: 7000;
+     color: white;
+}
+.head >p{
+    position: relative;
+    top: 2.3vmax;
+    right: 12.3vmax;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.container{
+    height: 40vh;
+    width: 39vw;
+    background-color: transparent;
+    position: relative;
+    left: 30vmax;
+    top: 4vmax;
+}
+.container >h1{
+    font-size: 6vmax;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    background:linear-gradient(violet,purple,blue);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.container >h2{
+    font-size: 5vmax;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+.container >p{
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 500;
+    display: flex;
+    position: relative;
+    text-wrap: balance;
+    top: 1vmax;
+    text-align: center;
+    color: white;
+
+}
+.tik{
+    height: 5vh;
+    width: 40vw;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    left: 29vmax;
+    top: 4vmax;
+    align-items: center;
+    
+}
+  .star{
+    height: 4vh;
+    width: 2vw;
+    background: linear-gradient(to right bottom, violet,purple,#7f51a4);
+    border-radius: 50%;
+    position: relative;
+    /* top: 1vmax; */
+    text-align: center;
+}  
+.star >i{
+    color: white;
+    /* text-align: center; */
+    font-size:13px;
+    position: relative;
+    top: 3px;
+    font-weight: 800;
+}
+.pera{
+    height: 3vh;
+    width: 9vw;
+    position: relative;
+    bottom: 15px;
+    left: 2vmax;
+}
+ .pera >h6{
+    position: relative;
+    font-size: 10.5px;
+    font-family: sans-serif;
+    font-weight: 550;
+    right: 9.7px;
+    top: 3px;
+    color: white;
+
+    
+}
+
+.star1{
+    height: 4vh;
+    width: 2vw;
+    background: linear-gradient(to right bottom, violet,purple,#7f51a4);
+    border-radius: 50%;
+    position: relative;
+    /* top: 1vmax; */
+    text-align: center;
+    left: 8.3vmax;
+}  
+.star1 >i{
+    color: white;
+    /* text-align: center; */
+    font-size:13px;
+    position: relative;
+    top: 3px;
+    font-weight: 800;
+}
+.pera1{
+    height: 3vh;
+    width: 16vw;
+    position: relative;
+    bottom: 15px;
+    left: 2vmax;
+}
+ .pera1 >h6{
+    position: relative;
+    font-size: 10.5px;
+    font-family: sans-serif;
+    font-weight: 550;
+    right: 10px;
+    top: 3px;
+    color: white;
+
+    
+}
+
+.star2{
+    height: 4vh;
+    width: 2vw;
+    background: linear-gradient(to right bottom, violet,purple,#7f51a4);
+    border-radius: 50%;
+    position: relative;
+    /* top: 1vmax; */
+    text-align: center;
+    left: 23vmax;
+}  
+.star2 >i{
+    color: white;
+    /* text-align: center; */
+    font-size:13px;
+    position: relative;
+    top: 3px;
+    font-weight: 800;
+}
+.pera2{
+    height: 3vh;
+    width: 10vw;
+    position: relative;
+    bottom: 15px;
+    left: 2vmax;
+    background-color: transparent;
+}
+ .pera2 >h6{
+    position: relative;
+    font-size: 10.5px;
+    font-family: sans-serif;
+    font-weight: 550;
+    left: 3px;
+    top: 3px;
+    color: white;  
+}
+ .btn{
+    height: 12vh;
+    width: 20vw;
+     /* background-color: red;  */
+    position: relative;
+    top: 8vmax;
+    left: 38.4vmax;
+    
+}
+.btn >button{
+    align-items: center;
+    padding: 13px 25px;
+    position: absolute;
+    left: 3vmax;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(violet,purple,blue);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid blue;
+    bottom: 7vmax;
+} 
+.void{
+    height: 10vh;
+    width: 15vw;
+    background: linear-gradient(violet,purple,blue);  
+      filter: blur(35px);
+      border-radius: 50%;
+    position: relative;
+    top: 9vmax;
+    left: 43vmax;
+    
+}
+
+.com{
+    height: 15vh;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    top: 14vmax;
+}
+.com >p{
+    font-size: 8px;
+    text-align: center;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.591);
+}
+
+.main >i{
+     font-size: 23px;
+     position: relative;
+     left: 27vmax;
+     top: 1.3vmax;
+     color: rgba(255, 255, 255, 0.591);
+     
+}
+.main >h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    position: relative;
+     right: 16.4vmax;
+     bottom: 1vmax; 
+    text-align: center;
+    color: rgba(255, 255, 255, 0.591);
+}
+
+.main1 >i{
+    font-size: 23px;
+    position: relative;
+    bottom: 2.9vmax;
+    left: 37.4vmax;
+    color: rgba(255, 255, 255, 0.591);
+    
+    
+}
+.main1 >h2{
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: 900;
+   position: relative;
+   text-align: center;
+   bottom: 5vmax;
+   right: 6vmax;
+   color: rgba(255, 255, 255, 0.591);
+}
+.main2 >i{
+    font-size: 23px;
+    position: relative;
+    bottom: 7vmax;
+    left: 48vmax;
+    color: rgba(255, 255, 255, 0.591);
+    
+    
+}
+.main2 >h3{
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: 900;
+   position: relative;
+   /* text-align: center; */
+   bottom: 9vmax;
+   text-align: center;
+   margin-left: 11.5vmax;
+   color: rgba(255, 255, 255, 0.591);
+
+}
+
+.main3 >img{
+    height: 6vh;
+    width: 6vw;
+    position: relative;
+    bottom: 11.3vmax;
+    left: 61vmax;
+}
+.main3 >h4{
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: 500;
+   position: relative;
+   /* text-align: center; */
+   bottom: 14vmax;
+   /* text-align: center; */
+   margin-left: 67vmax;
+   color: rgba(255, 255, 255, 0.591);
+}
+
+.content{
+    height: 13vh;
+    width: 44vw;
+    background-color: transparent;
+    position: relative;
+    top: 20vmax;
+    left: 27vmax;
+}
+.content >p{
+    font-size: 8px;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.591);
+}
+.content >h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: relative;
+    right: 1vmax;
+    top: 3px;
+    color: rgba(255, 255, 255, 0.591);
+}
+.high{
+    height: 35vh;
+    width: 20vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    /* background-color: rgba(255, 255, 255, 0.591); */
+    /* background-color: #5951a4; */
+    position: relative;
+    top: 24vmax;
+    left: 25vmax;
+    border-bottom-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    border: 1px solid  rgb(60, 58, 58);
+    z-index: +1;
+}
+.high1{
+    height: 33vh;
+    width: 15vw;
+    background-color: black;
+    position: relative;
+    left: 2.5vmax;
+    bottom: 1vmax;
+    box-decoration-break: 3px;
+    border: 1px solid rgb(60, 58, 58);
+    
+}
+.up{
+    height: 3.3vh;
+    width: 1.5vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 1.5vmax;
+    top: 1.5vmax;
+    border-radius: 2px;
+    text-align: center;
+}
+.up >i{
+    font-size: 14px;
+    font-weight: 800;
+}
+.up1{
+    height: 1.9vh;
+    width: 10vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 2vmax;
+    bottom: 1.5vmax;
+    border-radius: 2px;
+}
+.up2{
+    height: 1.9vh;
+    width: 10vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 0vmax;
+    top: 1.2vmax;
+    border-radius: 2px;
+}
+.up3{
+    height: 1.9vh;
+    width: 10vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 0vmax;
+    top: 1.2vmax;
+    border-radius: 2px;
+}
+
+.son{
+    height: 3.3vh;
+    width: 1.5vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 1.5vmax;
+    top: 4.3vmax;
+    border-radius: 2px;
+    text-align: center;
+}
+.son >i{
+    font-size: 14px;
+    font-weight: 800;
+}
+.down{
+    height: 1.9vh;
+    width: 10vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 2vmax;
+    bottom: 1.5vmax;
+    border-radius: 2px;
+}
+.down2{
+    height: 1.9vh;
+    width: 10vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 0vmax;
+    top: 1.2vmax;
+    border-radius: 2px;
+}
+.down3{
+    height: 1.9vh;
+    width: 10vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 0vmax;
+    top: 1.2vmax;
+    border-radius: 2px;
+}
+.high1 >button{
+    position: relative;
+    top: 7.3vmax;
+    padding: 9px 49px;
+    left: 1.6vmax;
+    /* border-radius: 20px 20px; */
+    border-radius: 5px;
+    color: rgb(95, 87, 87);
+    background-color: rgba(117, 111, 111, 0.285);
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.avc{
+    height: 39vh;
+    width: 18vw;
+    background: linear-gradient(violet,blue,black,white);
+    border-bottom-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    position: relative;
+    left: 25vmax;
+    top: 9vmax;
+    filter: blur(75px);
+    opacity: 0.5;
+}
+.mega{
+    height: 10vh;
+    width: 20vw;
+    background-color: transparent;
+    position: relative;
+    top: 8vmax;
+}
+.mega >h1{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.mega >p{
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 6px;
+    color: rgba(199, 178, 178, 0.379);
+}
+.last{
+    height: 35.3vh;
+    width: 23vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 22vmax;
+    border-radius: 7px;
+    border: 1px solid rgb(60, 58, 58);
+    top: 25vmax;
+    z-index: +1;
+}
+.last2{
+    height: 3.3vh;
+    width: 19vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    left: 2vmax;
+    top: 1.5vmax;
+    
+}
+.last2 >h1{
+    position: relative;
+    font-size: 29px;
+    bottom: 15px;
+    left: 5px;
+    font-weight: 900;
+}
+.last3{
+    height: 28.6vh;
+    width: 19vw;
+    background-color: black;
+    position: relative;
+    bottom: 1.2vmax;
+    
+}
+.back{
+    height: 11vh;
+    width: 17vw;
+    background-color: rgb(16, 16, 26);
+    position: relative;
+    left: 1vmax;
+    top: 1vmax;
+    border: 1px solid rgb(60, 58, 58);
+}
+.back1{
+    height: 8vh;
+    width: 3vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    top: 7px;
+    left: 6px;
+    text-align: center;
+    border-radius: 5px;
+}
+.back1 >i{
+    font-size: 19px;
+    font-weight: 900;
+    position: relative;
+    top: 15px;
+}
+.back2{
+    height: 1.9vh;
+    width: 10vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+     left: 3.5vmax;
+     bottom: 1.4vmax;  
+    
+}
+.back3{
+    height: 1.9vh;
+    width: 8.6vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+     left: 3.5vmax;
+     bottom: 12px;  
+    
+}
+.back4{
+    height: 1.9vh;
+    width: 7vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+     left: 3.5vmax;
+     bottom: 6px;  
+    
+}
+
+.line{
+    height: 11vh;
+    width: 17vw;
+    background-color: rgb(16, 16, 26);
+    position: relative;
+    left: 1vmax;
+    top: 1.6vmax;
+    border: 1px solid rgb(60, 58, 58);;
+}
+.line1{
+    height: 8vh;
+    width: 3vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    top: 7px;
+    left: 6px;
+    text-align: center;
+    border-radius: 5px;
+}
+.line1 >i{
+    font-size: 19px;
+    font-weight: 900;
+    position: relative;
+    top: 15px;
+}
+.line2{
+    height: 1.9vh;
+    width: 10vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+     left: 3.5vmax;
+     bottom: 1.4vmax;  
+    
+}
+.line3{
+    height: 1.9vh;
+    width: 8.6vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+     left: 3.5vmax;
+     bottom: 12px;  
+    
+}
+.line4{
+    height: 1.9vh;
+    width: 7vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+     left: 3.5vmax;
+     bottom: 6px;  
+    
+}
+.bluer{
+    height: 42vh;
+    width: 22vw;
+    background: linear-gradient(violet,blue,black,white);
+    border-bottom-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    position: relative;
+    left: 23vmax;
+    top: 9vmax;
+    filter: blur(75px);
+    opacity: 0.5;
+}
+.vertical{
+    width: 1px;
+    height: 143vh;
+    background-color: red;
+    position: relative;
+    left: 52vmax;
+    bottom: 44.9vmax;
+    border: 1px solid rgb(60, 58, 58);
+}
+.vertical_circle{
+    height: 4.7vh;
+    width: 2.6vw;
+    background: linear-gradient(to right bottom, violet,purple,#7f51a4);
+    border-radius: 50%;
+    position: relative;
+    /* top: 1vmax; */
+    text-align: center;
+    top: 10vmax;
+    right: 1.2vmax;
+    z-index: +1;
+    
+}
+
+.fog{
+    height: 5.5vh;
+    width: 2.6vw;
+    background: linear-gradient(violet,purple,blue);
+    position: relative;
+    bottom: 1.5vmax;
+    filter: blur(10px);
+    border-radius: 50%;
+    opacity: 0.7;
+}
+.vertical_circle >h1{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 2px;
+    right: 1px;
+    color: white;
+}  
+
+.vertical_circle2{
+    height: 4.7vh;
+    width: 2.6vw;
+    background: linear-gradient(to right bottom, violet,purple,#7f51a4);
+    border-radius: 50%;
+    position: relative;
+    /* top: 1vmax; */
+    text-align: center;
+    top: 25vmax;
+    right: 1.2vmax;
+    
+}
+.vertical_circle2 >h1{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 2.7px;
+    right: 1px;
+    color: white;
+}  
+
+.fog1{
+    height: 5.5vh;
+    width: 2.6vw;
+    background: linear-gradient(violet,purple,blue);
+    position: relative;
+    bottom: 1.5vmax;
+    filter: blur(10px);
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.vertical_circle3{
+    height: 4.7vh;
+    width: 2.6vw;
+    background: linear-gradient(to right bottom, violet,purple,#7f51a4);
+    border-radius: 50%;
+    position: relative;
+    /* top: 1vmax; */
+    text-align: center;
+    top: 40vmax;
+    right: 1.2vmax;
+    
+}
+.vertical_circle3 >h1{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 4.3px;
+    right: 1px;
+    color: white;
+} 
+
+.fog2{
+    height: 5.5vh;
+    width: 2.6vw;
+    background: linear-gradient(violet,purple,blue);
+    position: relative;
+    bottom: 1.5vmax;
+    filter: blur(10px);
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.vertical_circle4{
+    height: 4.7vh;
+    width: 2.6vw;
+    background: linear-gradient(to right bottom, violet,purple,#7f51a4);
+    border-radius: 50%;
+    position: relative;
+    /* top: 1vmax; */
+    text-align: center;
+    top: 49vmax;
+    right: 1.2vmax;
+    
+}
+.vertical_circle4 >h1{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 4.3px;
+    right: 1px;
+    color: white;
+} 
+.fog3{
+    height: 5.5vh;
+    width: 2.6vw;
+    background: linear-gradient(violet,purple,blue);
+    position: relative;
+    bottom: 1.5vmax;
+    filter: blur(10px);
+    border-radius: 50%;
+    opacity: 0.7;
+} 
+
+.right{
+    height: 14vh;
+    width: 16vw;
+    background-color: transparent;
+    position: relative;
+    bottom: 101vmax;
+    left: 59vmax;
+}
+.right >h1{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.right >p{
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 6px;
+    color: rgb(79, 68, 68);
+    line-height: 1.5vmax;
+    
+}
+.right_down{
+    height: 32vh;
+    width: 22vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 92vmax;
+    left: 59vmax;
+    border-radius: 5px;
+    border: 1px solid  rgb(60, 58, 58);
+}
+
+.right_down2{
+    height: 11vh;
+    width: 13vw;
+    background-color: rgb(16, 16, 26);
+    position: relative;
+    left: 4vmax;
+    bottom: 1vmax;
+    border: 1px solid rgb(60, 58, 58);
+}
+.plush{
+    height: 6.3vh;
+    width: 2.6vw;
+    /* background-color: #7f51a4; */
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    top: 12px;
+    left: 1vmax;
+    border-radius: 2px;
+    text-align: center;
+}
+.plush >i{
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    top: 4px;
+    
+}
+.ray{
+    height: 1.4vh;
+    width: 18vh;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 1.8vmax;
+    left: 4.3vmax;
+    
+}
+.ray2{
+    height: 1.4vh;
+    width: 15vh;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 1.3vmax;
+    left: 4.3vmax;
+}
+.ray3{
+    height: 1.4vh;
+    width: 13vh;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 11px;
+    left: 4.3vmax;
+}
+.second{
+    height: 11vh;
+    width: 18vw;
+     background-color: rgb(16, 16, 26); 
+    position: relative;
+    left: 2vmax;
+     border: 1px solid rgb(60, 58, 58); 
+}
+.plush2{
+    height: 6.3vh;
+    width: 2.6vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    top: 12px;
+    left: 1vmax;
+    border-radius: 2px;
+    text-align: center;
+}
+.plush2 >i{
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    top: 4px;
+    
+}
+.dash{
+    height: 1.4vh;
+    width: 29vh;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 1.8vmax;
+    left: 4.3vmax;
+}
+.dash2{
+    height: 1.4vh;
+    width: 26vh;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 1.4vmax;
+    left: 4.3vmax;
+}
+.dash3{
+    height: 1.4vh;
+    width: 23vh;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 1vmax;
+    left: 4.3vmax;
+}
+
+.three{
+    height: 11vh;
+    width: 13vw;
+    background-color: rgb(16, 16, 26);
+    position: relative;
+    left: 4vmax;
+    top: 1vmax;
+    border: 1px solid rgb(60, 58, 58);
+}
+.plush3{
+    height: 6.3vh;
+    width: 2.6vw;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    top: 12px;
+    left: 1vmax;
+    border-radius: 2px;
+    text-align: center;
+}
+.plush3 >i{
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    top: 4px;
+    
+}
+.one{
+    height: 1.4vh;
+    width: 18vh;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 1.8vmax;
+    left: 4.3vmax;
+}
+.one2{
+    height: 1.4vh;
+    width: 15vh;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 1.3vmax;
+    left: 4.3vmax;
+}
+.one3{
+    height: 1.4vh;
+    width: 13vh;
+    background-color: rgba(117, 111, 111, 0.285);
+    position: relative;
+    bottom: 11px;
+    left: 4.3vmax;
+}
+.buler_div{
+    height: 39vh;
+    width: 25vw;
+    position: relative;
+    bottom: 107vmax;
+    left: 58vmax;
+    background: linear-gradient(violet,blue,black,white);
+    border-bottom-left-radius: 1vmax;
+    border-bottom-right-radius: 1vmax;
+    filter: blur(75px);
+    opacity: 0.5;
+    z-index: -1; 
+}
+.total{
+    height: 14vh;
+    width: 16vw;
+    background-color: transparent;
+     position: relative;
+    bottom: 101vmax;
+    left: 59vmax; 
+}
+.total >h1{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.total >p{
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 450;
+    position: relative;
+    top: 6px;
+    color: rgb(79, 68, 68);
+    line-height: 1.5vmax;
+    
+} 
+.niche{
+    height: 17vh;
+    width: 18vw;
+    background-color: transparent;
+    position: relative;
+    bottom: 89vmax;
+    left: 44vmax; 
+}
+.niche >h1{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    /* position: relative; */
+    
+}
+.niche >p{
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: 450;
+    position: relative;
+    top: 6px;
+    color: rgb(79, 68, 68);
+    line-height: 1.7vmax;
+    
+} 
+.niche >i{
+    font-size: 20px;
+    position: relative;
+    top: 2vmax;
+    color: rgb(53, 49, 49);
+}
